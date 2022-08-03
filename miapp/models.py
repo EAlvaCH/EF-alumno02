@@ -3,7 +3,6 @@ from datetime import datetime
  
 fechaHoy = datetime.now()
 
-# Create your models here.
 class Producto(models.Model):
     codigo = models.TextField(max_length=8)
     nombre = models.TextField()
